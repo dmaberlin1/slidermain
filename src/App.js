@@ -1,13 +1,13 @@
-
 import './App.css';
+import Slider from "./Components/Slider/Slider";
+
 
 function App() {
-  return (
-    <div>
-      <h1>Hello</h1>
-
-    </div>
-  );
+    return (
+      <>
+          <Slider></Slider>
+      </>
+    );
 }
 
 export default App;
